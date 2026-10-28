@@ -173,7 +173,7 @@
       <div class="col-md-4">
         <div class="stats-box">
           <div class="stat-icon">
-            <div class="counter" data-count="50000">0</div><span class="plus-icon">+</span>
+            <div class="counter" data-count="80000">80,000</div><span class="plus-icon">+</span>
           </div>
           <div class="stats-text">Happy Customers</div>
         </div>
@@ -399,9 +399,10 @@
         >
           <div class="it-copyright-text style-2 text-center">
             <p class="mb-0">
-              <span> Developed by Young Mynds Infotech</span> ||
-              <a href="/terms-and-conditions/" class="text-primary">Terms and Conditions</a>
-            </p>
+                  <span>Copyrights @ 2026 CHANDRASEKAR PRASANA,ATMAN | Atman Originals .All rights reserved | Developed by Young Mynds Infotech</span> ||
+                  <a href="/terms-and-conditions/" class="text-primary">Terms and Conditions</a> |
+                  <a href="/privacy-policy/" class="text-primary">Privacy Policy</a>
+                </p>
         </div>
       </div>
     </div>
@@ -563,7 +564,7 @@ observer.observe(milestonesSection);
                       count = target;
                       clearInterval(counterAnimation);
                   }
-                  counter.innerText = count;
+                  counter.innerText = count.toLocaleString("en-US");
               }, interval);
           }, index * 300); // Stagger the animations
       });
